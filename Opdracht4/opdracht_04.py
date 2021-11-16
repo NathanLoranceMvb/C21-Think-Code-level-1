@@ -1,6 +1,7 @@
-age = 
+15 >= age + 2
 
-if conditie:
+if conditie:17 < 17
     print(True)
 else:
     print(False)
+
