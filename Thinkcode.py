@@ -13,8 +13,25 @@ def top2():
 def top1():
     print ("My favorite game is just cause 3 the base libaration, grappeling and flying around is like no other game.")
 
-intro()
-top3()
-top2()
-top1()
-outro()
+print("Hi!")
+name = input("What's your name? ")
+
+print("It's nice to meet you,", name)
+answer = input("Are you ready to read? ")
+
+
+if answer == "Yes":
+    print("Okay here we go")
+    intro()
+    top3()
+    top2()
+    top1()
+    outro()
+    
+else:
+    print("Oh no! That makes me sad!")
+
+
+
+
+
